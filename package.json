@@ -1,0 +1,18 @@
+{
+  "name": "madni-lpg-socketio-sync",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tenant-scoped Socket.IO invalidation notifier for MADNI LPG POS. Business records remain in the Cloudflare Worker backend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "4.8.4"
+  }
+}
